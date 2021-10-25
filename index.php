@@ -1,8 +1,8 @@
 <?php
 $tookanApiKey = 'add Tookan api key here';
-$getSingleOrder = getSingleOrder($order_id);
-$getOrderDetails = getOrderDetails($order_id);
-$customerDetails = getCustomerProfileData($getSingleOrder->customer_id);
+$getSingleOrder;
+$getOrderDetails;
+$customerDetails;
 $payment_gateway = $getSingleOrder->payment_gateway;
 $type ='Credit Card';
 
